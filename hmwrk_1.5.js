@@ -7,7 +7,7 @@ function run(){
   c = parseFloat(c);
   var list = [a,b,c];
   list.sort(function(a,b){return b-a});
-  console.log(list.join("\n").toString());
+  console.log(list);
 
 }
 run();
