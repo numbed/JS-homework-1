@@ -4,14 +4,14 @@ function run() {
 	var health = confirm("Are you healthy?\nOK for YES | CANCEL for NO");
 	hour = parseInt(hour);
 	cash = parseFloat(cash);
-	if (health == true) {
+	if (health == true) { //if I'm sick
 		if (hour > 22 && cash > 100) {
 			console.log("I'm ready for party. Let's get wasted!");
 		} else {
 			console.log("Loneliness awaits me!");
 		}
 		
-	} else {
+	} else { //if I'm healty
 
 		console.log("I will stay at home.");
 		if (cash > 50) {
